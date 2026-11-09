@@ -1,0 +1,6 @@
+{
+  "name": "day",
+  "private": true,
+  "type": "module",
+  "description": "Мой день — личный планировщик (PWA)"
+}
