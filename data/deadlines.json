@@ -1,0 +1,61 @@
+{
+ "updated": "2026-11-09T01:19:18.716Z",
+ "items": [
+  {
+   "id": "lms-2656610",
+   "title": "Homework 8: Groups 1 - 4",
+   "course": "micro",
+   "due": "2026-11-10T14:40",
+   "kind": "assign",
+   "mustPass": true,
+   "src": "lms",
+   "url": "https://edu.hse.ru/mod/assign/view.php?id=2322256"
+  },
+  {
+   "id": "lms-2535724",
+   "title": "Quiz 7",
+   "course": "hist",
+   "due": "2026-11-22T23:59",
+   "kind": "quiz",
+   "src": "lms",
+   "url": "https://edu.hse.ru/mod/quiz/view.php?id=2145547"
+  },
+  {
+   "id": "lms-2535726",
+   "title": "Quiz 9",
+   "course": "hist",
+   "due": "2026-11-22T23:59",
+   "kind": "quiz",
+   "src": "lms",
+   "url": "https://edu.hse.ru/mod/quiz/view.php?id=2145557"
+  },
+  {
+   "id": "lms-2535728",
+   "title": "Quiz 10",
+   "course": "hist",
+   "due": "2026-11-22T23:59",
+   "kind": "quiz",
+   "src": "lms",
+   "url": "https://edu.hse.ru/mod/quiz/view.php?id=2145565"
+  },
+  {
+   "id": "lms-2550880",
+   "title": "Upload form for the certificate",
+   "course": "bzh",
+   "due": "2026-12-10T23:59",
+   "kind": "assign",
+   "mustPass": true,
+   "src": "lms",
+   "url": "https://edu.hse.ru/mod/assign/view.php?id=2216835"
+  },
+  {
+   "id": "lms-2652081",
+   "title": "Промежуточный тест по английскому: Reading",
+   "course": "eng",
+   "due": "2026-12-17T18:00",
+   "kind": "quiz",
+   "src": "lms",
+   "url": "https://edu.hse.ru/mod/quiz/view.php?id=1837247"
+  }
+ ]
+}

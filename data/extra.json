@@ -1,0 +1,39 @@
+{
+ "about": "Ручные дедлайны и важные даты. due — время по Москве (YYYY-MM-DDTHH:MM). until — после этой даты пункт скрывается. Можно править прямо на GitHub.",
+ "items": [
+  {
+   "id": "lms-2633431",
+   "title": "HW 6 (only Group 4 and Group 10)",
+   "course": "calc",
+   "due": "2026-10-24T23:59",
+   "kind": "assign",
+   "src": "lms",
+   "open": true,
+   "until": "2026-11-23",
+   "url": "https://edu.hse.ru/mod/assign/view.php?id=2311355",
+   "note": "Срок прошёл, но в Smart LMS сдача ещё открыта"
+  },
+  {
+   "id": "lms-2626296",
+   "title": "Home Assignment 4",
+   "course": "ics",
+   "due": "2026-10-25T23:59",
+   "kind": "assign",
+   "src": "lms",
+   "open": true,
+   "until": "2026-11-23",
+   "url": "https://edu.hse.ru/mod/assign/view.php?id=2308236",
+   "note": "Срок прошёл, но в Smart LMS сдача ещё открыта"
+  },
+  {
+   "id": "life-shodka-launch",
+   "title": "Презентация Сходки",
+   "course": "life",
+   "due": "2026-11-21T23:59",
+   "allDay": true,
+   "kind": "event",
+   "src": "manual",
+   "note": "Хлебозавод №9"
+  }
+ ]
+}
