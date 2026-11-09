@@ -1,0 +1,61 @@
+name: Daily update
+
+# Каждый день: 08:20 МСК — свежие пары с hse.ru и дедлайны из Smart LMS,
+# ровно в 09:00 МСК — уведомление на телефон со сводкой дня.
+on:
+  schedule:
+    - cron: '20 5 * * *'   # 05:20 UTC = 08:20 МСК
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Обновить расписание и дедлайны
+        env:
+          DAY_CONFIG: ${{ secrets.DAY_CONFIG }}
+        run: node scripts/update.mjs
+
+      - name: Сохранить данные
+        run: |
+          git config user.name "day-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "без изменений"; else git commit -m "data: $(date -u +%F)" && git push; fi
+
+      - name: Пересобрать GitHub Pages
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+
+      - name: Подождать до 09:00 МСК
+        if: github.event_name == 'schedule'
+        run: |
+          now=$(date -u +%s)
+          target=$(date -u -d "$(date -u +%F) 06:00:00" +%s)
+          wait=$((target - now))
+          if [ "$wait" -gt 0 ] && [ "$wait" -lt 3600 ]; then echo "жду $wait c"; sleep "$wait"; fi
+
+      - name: Уведомление в 9:00
+        env:
+          PUSH_CONFIG: ${{ secrets.PUSH_CONFIG }}
+        run: |
+          if [ -z "$PUSH_CONFIG" ]; then echo "PUSH_CONFIG не задан — пропускаю"; exit 0; fi
+          npm i --no-save --no-audit --no-fund web-push@3.6.7
+          node scripts/notify.mjs
