@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-10T13:30:24.308Z",
- "ymd": "2026-11-10",
+ "updated": "2026-11-11T12:45:31.398Z",
+ "ymd": "2026-11-11",
  "schedule": {
   "ok": true,
   "source": "group",
-  "count": 213
+  "count": 209
  },
  "lms": {
   "ok": true,
-  "count": 5
+  "count": 6
  }
 }
