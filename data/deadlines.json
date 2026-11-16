@@ -1,25 +1,6 @@
 {
- "updated": "2026-11-15T12:47:10.537Z",
+ "updated": "2026-11-16T13:41:44.210Z",
  "items": [
-  {
-   "id": "lms-2697440",
-   "title": "Project 3 submission form: What was the connection between commercial activities and foreign policy of Russia in the XVI century?",
-   "course": "hist",
-   "due": "2026-11-15T18:00",
-   "kind": "assign",
-   "mustPass": true,
-   "src": "lms",
-   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1794754800"
-  },
-  {
-   "id": "lms-2693347",
-   "title": "Class work week 8",
-   "course": "py",
-   "due": "2026-11-15T23:59",
-   "kind": "quiz",
-   "src": "lms",
-   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1794776340"
-  },
   {
    "id": "lms-2676284",
    "title": "Homework 9: Groups 1 - 4",
