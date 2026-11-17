@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-16T13:41:44.210Z",
+ "updated": "2026-11-17T14:28:57.511Z",
  "items": [
   {
-   "id": "lms-2676284",
-   "title": "Homework 9: Groups 1 - 4",
-   "course": "micro",
-   "due": "2026-11-17T14:40",
+   "id": "lms-2699694",
+   "title": "HW 8 (only Group 4 and Group 10)",
+   "course": "calc",
+   "due": "2026-11-21T23:59",
    "kind": "assign",
    "mustPass": true,
    "src": "lms",
-   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1794915600"
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795294740"
   },
   {
    "id": "lms-2535724",
@@ -37,6 +37,26 @@
    "kind": "quiz",
    "src": "lms",
    "url": "https://edu.hse.ru/mod/quiz/view.php?id=2145565"
+  },
+  {
+   "id": "lms-2686209",
+   "title": "Homework 10: Groups 1 - 4",
+   "course": "micro",
+   "due": "2026-11-24T14:40",
+   "kind": "assign",
+   "mustPass": true,
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795520400"
+  },
+  {
+   "id": "lms-2699141",
+   "title": "VBA Home Assigment 1",
+   "course": "ics",
+   "due": "2026-11-29T23:59",
+   "kind": "assign",
+   "mustPass": true,
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795985940"
   },
   {
    "id": "lms-2550880",
