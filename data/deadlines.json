@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:03:54.726Z",
+ "updated": "2026-11-21T13:30:09.551Z",
  "items": [
   {
    "id": "lms-2699694",
@@ -85,6 +85,15 @@
    "kind": "quiz",
    "src": "lms",
    "url": "https://edu.hse.ru/mod/quiz/view.php?id=1837247"
+  },
+  {
+   "id": "lms-2701583",
+   "title": "Test 6 (unevaluated, for self-testing)",
+   "course": "org",
+   "due": "2026-12-24T23:55",
+   "kind": "quiz",
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1798145700"
   }
  ]
 }
