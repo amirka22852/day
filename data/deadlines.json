@@ -1,16 +1,6 @@
 {
- "updated": "2026-11-21T13:30:09.551Z",
+ "updated": "2026-11-22T13:23:34.804Z",
  "items": [
-  {
-   "id": "lms-2699694",
-   "title": "HW 8 (only Group 4 and Group 10)",
-   "course": "calc",
-   "due": "2026-11-21T23:59",
-   "kind": "assign",
-   "mustPass": true,
-   "src": "lms",
-   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795294740"
-  },
   {
    "id": "lms-2535724",
    "title": "Quiz 7",
