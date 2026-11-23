@@ -1,52 +1,6 @@
 {
- "updated": "2026-11-22T13:23:34.804Z",
+ "updated": "2026-11-23T16:01:59.772Z",
  "items": [
-  {
-   "id": "lms-2535724",
-   "title": "Quiz 7",
-   "course": "hist",
-   "due": "2026-11-22T23:59",
-   "kind": "quiz",
-   "src": "lms",
-   "url": "https://edu.hse.ru/mod/quiz/view.php?id=2145547"
-  },
-  {
-   "id": "lms-2535726",
-   "title": "Quiz 9",
-   "course": "hist",
-   "due": "2026-11-22T23:59",
-   "kind": "quiz",
-   "src": "lms",
-   "url": "https://edu.hse.ru/mod/quiz/view.php?id=2145557"
-  },
-  {
-   "id": "lms-2535728",
-   "title": "Quiz 10",
-   "course": "hist",
-   "due": "2026-11-22T23:59",
-   "kind": "quiz",
-   "src": "lms",
-   "url": "https://edu.hse.ru/mod/quiz/view.php?id=2145565"
-  },
-  {
-   "id": "lms-2700104",
-   "title": "Digital Literacy Test 3",
-   "course": "ics",
-   "due": "2026-11-22T23:59",
-   "kind": "quiz",
-   "src": "lms",
-   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795381140"
-  },
-  {
-   "id": "lms-2699141",
-   "title": "VBA Home Assigment 1",
-   "course": "ics",
-   "due": "2026-11-23T23:59",
-   "kind": "assign",
-   "mustPass": true,
-   "src": "lms",
-   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795985940"
-  },
   {
    "id": "lms-2686209",
    "title": "Homework 10: Groups 1 - 4",
@@ -56,6 +10,26 @@
    "mustPass": true,
    "src": "lms",
    "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795520400"
+  },
+  {
+   "id": "lms-2699141",
+   "title": "VBA Home Assigment 1",
+   "course": "ics",
+   "due": "2026-11-24T23:59",
+   "kind": "assign",
+   "mustPass": true,
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795985940"
+  },
+  {
+   "id": "lms-2686214",
+   "title": "Homework 11: Groups 1 - 4",
+   "course": "micro",
+   "due": "2026-12-01T14:40",
+   "kind": "assign",
+   "mustPass": true,
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1796125200"
   },
   {
    "id": "lms-2550880",
@@ -75,6 +49,33 @@
    "kind": "quiz",
    "src": "lms",
    "url": "https://edu.hse.ru/mod/quiz/view.php?id=1837247"
+  },
+  {
+   "id": "lms-2535730",
+   "title": "Quiz 11",
+   "course": "hist",
+   "due": "2026-12-20T23:59",
+   "kind": "quiz",
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1797800340"
+  },
+  {
+   "id": "lms-2535732",
+   "title": "Quiz 12",
+   "course": "hist",
+   "due": "2026-12-20T23:59",
+   "kind": "quiz",
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1797800340"
+  },
+  {
+   "id": "lms-2535734",
+   "title": "Quiz 13",
+   "course": "hist",
+   "due": "2026-12-20T23:59",
+   "kind": "quiz",
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1797800340"
   },
   {
    "id": "lms-2701583",
