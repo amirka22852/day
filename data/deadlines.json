@@ -1,16 +1,6 @@
 {
- "updated": "2026-11-23T16:01:59.772Z",
+ "updated": "2026-11-24T15:55:19.762Z",
  "items": [
-  {
-   "id": "lms-2686209",
-   "title": "Homework 10: Groups 1 - 4",
-   "course": "micro",
-   "due": "2026-11-24T14:40",
-   "kind": "assign",
-   "mustPass": true,
-   "src": "lms",
-   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795520400"
-  },
   {
    "id": "lms-2699141",
    "title": "VBA Home Assigment 1",
