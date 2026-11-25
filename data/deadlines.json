@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-24T15:55:19.762Z",
+ "updated": "2026-11-25T15:39:11.579Z",
  "items": [
   {
-   "id": "lms-2699141",
-   "title": "VBA Home Assigment 1",
-   "course": "ics",
-   "due": "2026-11-24T23:59",
+   "id": "lms-2703459",
+   "title": "HW 9 (only Group 4 and Group 10)",
+   "course": "calc",
+   "due": "2026-11-28T23:59",
    "kind": "assign",
    "mustPass": true,
    "src": "lms",
-   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795985940"
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1795899540"
   },
   {
    "id": "lms-2686214",
@@ -20,6 +20,16 @@
    "mustPass": true,
    "src": "lms",
    "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1796125200"
+  },
+  {
+   "id": "lms-2703523",
+   "title": "VBA Home Assigment 2",
+   "course": "ics",
+   "due": "2026-12-01T23:59",
+   "kind": "assign",
+   "mustPass": true,
+   "src": "lms",
+   "url": "https://edu.hse.ru/calendar/view.php?view=day&time=1796158740"
   },
   {
    "id": "lms-2550880",
